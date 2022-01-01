@@ -1,11 +1,11 @@
-# - Introduction to React
+# Introduction to React 
 
 ## What is React?
 
 
 - React is a **JavaScript library** for building fast and interactive 
   UI and **Single Page Application (SPA)**.
-- Developed by **Facebook** in 2011.
+- Developed by **Facebook** in `29 May 2013`.
 - React is the view part of **MVC application**.
 - **Declarative View** :- React will efficiently update and render just
   the components we need to change and update data to, the entire page
@@ -52,7 +52,7 @@
 ## How Virtual DOM helps React
 
 - In react, **Everything is Treated as a Component** be it a functional component or class component.
-- **A Component can contain a State**.
+- **A Component can contain some State**.
 - Each time we change something in our JSX file or let’s put it in simple terms, whenever **The State of any Component is changed React updates it’s Virtual DOM Tree 🌲.**
 - Though it may sound that it is ineffective but the cost is not much significant as **Updating the Virtual DOM doesn’t take much time.**
 - **React maintains Two Virtual DOM at each time**, one contains the **Updated Virtual DOM** and one which is just the **Pre-Update version** of this Updated Virtual DOM.
