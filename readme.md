@@ -64,3 +64,65 @@
 - **Reconciliation** ->  This entire **Process of Transforming Changes from the Virtual DOM to the Real DOM** is called **Reconciliation**, This significantly improves the performance and is the main reason why React and it’s Virtual DOM is much **Loved by Developers** all around.
 
 
+# What is a Library?
+
+- There are a billion webpages, and many of them are interactive in some way - in fact, many of them are interactive in the same ways. How many websites have you seen that use a slideshow? I've seen hundreds, myself!
+- Now, it's possible that every one of those web developers wrote their own JavaScript code to make a slideshow, but a lot of them probably re-used the same code. As programmers, we should re-use existing code when we can, so that we don't waste our time writing code that another programmer has already written.
+- In JavaScript, the way we do that is by **Using a library. A library is a JavaScript file that contains a bunch of functions, and those functions accomplish some useful task for your webpage**.
+- A JavaScript library is a **Library of Pre-written JavaScript Code** that allows for easier development of JavaScript-based applications, especially for **AJAX** and other web-centric technologies.
+
+
+## Origin of Library
+
+
+- With the **Expanded demands for JavaScript**, an **Easier means for Programmers to develop such dynamic interfaces was needed**. 
+- Thus, **JavaScript libraries and JavaScript widget libraries were developed**, allowing for developers to **concentrate more upon more distinctive applications of Ajax**.
+- This has led to other companies and groups, such as **Microsoft and Yahoo! developing their own JavaScript-based user interface libraries**, which find their way into the web applications developed by these companies.
+- Some JavaScript libraries allow for **easier integration of JavaScript with other web development technologies, such as CSS, PHP, Ruby, and Java**.
+- Almost all JavaScript libraries are released under either a copycenter or copyleft license to ensure license-free distribution, usage, and modification.
+
+
+# Understanding Modules and Named Export
+
+- A module in JavaScript is just a file containing related code.
+- In JavaScript, we use the **Import and Export keywords to share and receive functionalities respectively across different modules**.
+- The **Export keyword is used to make a variable, function, class or object  accessible to other modules**. In other words, it becomes a **Public Code**.
+- The **Import keyword is used to bring in public code from another module**.
+
+## Named Export
+
+**Syntax**
+- By declaring module we can activate import/export feature in javascript
+```javascript
+<script type="module" src="index.js"></script>
+```
+- To export module :-
+```javascript
+function xyz(){
+  return;
+}
+export {xyz}
+```
+- To import module :-
+```javascript
+import {xyz} from './main'
+function abc(){
+  return xyz();
+}
+```
+**Example**
+- Exporting Module
+```javascript
+function DisplayName(name) {
+  console.log(name);
+}
+export {DisplayName}
+```
+- Importing Module
+```javascript
+import { DisplayName } from './main';
+function NameIs() {
+	return DisplayName("shrey");
+}
+```
+
