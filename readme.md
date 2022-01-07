@@ -125,4 +125,28 @@ function NameIs() {
 	return DisplayName("shrey");
 }
 ```
+# Installing React 
+
+
+ There are a number of steps to create a react js app that we'll be looking forward to in this documentation
+
+ - Step 01(Install and Create React App):-  'npx create-react-app nameOfApp'
+
+ - Step 02(Navigate through the app):-  'cd nameOfApp'
+
+ - Step 03(Start the development server):-  'npm start'
+
+# npm vs npx 
+
+## npm 
+
+- npm stands for Node Package Manager
+- npm allows us to install all the packages globally in your machine and then execute
+
+## npx
+
+- npx stands for Node Package Execute
+- if we want to execute a package without installing it on machine we use npx
+
+# Folder Structure in React
 
