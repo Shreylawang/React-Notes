@@ -150,3 +150,34 @@ function NameIs() {
 
 # Folder Structure in React
 
+
+Folder structure in react contains the following folders :-
+1) node_modules
+2) public
+3) src
+4) .gitignore
+5) package-lock.json
+6) package.json
+7) readme.md
+
+
+1) node_modules :- Contains all the **dependencies and packages** we need to run react
+2) public :- 
+  - index.html :-
+    - When the application starts, this is the first page that is loaded
+    - Only html file in the entire application
+    - REACT is generally written using (JSX)
+    - <div id ="root"></div> -> All the application components are loaded into this div      
+3) src/index.js :-  
+- Javascript file corresponding to index.html.
+- ReactDOM.render(<App />, document.getElementById(‘root’)) -> Telling that App Component  has to be loaded into an html element with id root.   
+- The div element present in index.html.
+4) src/index.css :- 
+- The CSS file corresponding to index.js
+5) src/App.js :- 
+- file for App component
+- App Component is the main component in React
+- container --> all other components
+6) src/App.css :- This is the CSS file corresponding to App Component 
+7) package-lock.json :- contains all the dependencies we install using npx/npm 
+8) package.json :- This File has the list of node dependencies which are needed.
