@@ -181,3 +181,43 @@ Folder structure in react contains the following folders :-
 6) src/App.css :- This is the CSS file corresponding to App Component 
 7) package-lock.json :- contains all the dependencies we install using npx/npm 
 8) package.json :- This File has the list of node dependencies which are needed.
+
+
+# Props
+
+- PROPS :- When we want to pass data or property in a component, we use props to do that  
+- read only 
+
+
+Syntax :-
+
+- Passing data to a component
+```javascript
+<component object={object} />
+```
+
+- Receiving Props
+
+```javascript
+export default function component({object}) {
+    return (
+        <div>
+            
+        </div>
+    )
+}
+```
+OR
+
+```javascript
+export default function component(props) {
+  console.log(props)
+    return (
+        <div>
+            
+        </div>
+    )
+}
+```
+## Why we can't change PROPS?
+- All the components in react are pure functions
