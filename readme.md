@@ -242,16 +242,16 @@ export default function component(props) {
 
 ## props vs state
 
-- props ---get passed--> component
+- props ---get passed--> component<br>
   state ---managed--> within the component
-- Analogy -> props -> Function Parameters
+- Analogy -> props -> Function Parameters<br>
   -> state -> Variables Declared in the Function Body
-- props -> Immutable
-  state -> State cam be changed
+- props -> Immutable<br>  
+  state -> State can be changed
 
-- Function components -> props -> using props
+- Function components -> props -> using props<br>
   state -> useState Hook
-- Class components -> props -> using this.props
+- Class components -> props -> using this.props<br>
   state -> this.state
 
 # State Hook
@@ -303,7 +303,7 @@ export default function App() {
   };
   return (
     <div>
-      <h1></h1>
+      <h1>useState Example</h1>
       <p>Click Button To Change text to Uppercase</p>
       <form>
         <input value={text} onChange={handleOnChange}></input>
